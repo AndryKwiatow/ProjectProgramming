@@ -157,11 +157,7 @@ public class GUI extends javax.swing.JFrame {
         btnLogin.setForeground(new java.awt.Color(78, 78, 78));
         btnLogin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         btnLogin.setText("Login");
-        btnLogin.setMaximumSize(null);
-        btnLogin.setMinimumSize(null);
-        btnLogin.setName(""); // NOI18N
         btnLogin.setOpaque(true);
-        btnLogin.setPreferredSize(null);
         btnLogin.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnLoginMouseClicked(evt);
@@ -174,12 +170,10 @@ public class GUI extends javax.swing.JFrame {
             }
         });
         jPanelUser.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 230, 160, 30));
-
         btnSignUp.setBackground(new java.awt.Color(22, 25, 36));
         btnSignUp.setForeground(new java.awt.Color(78, 78, 78));
         btnSignUp.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         btnSignUp.setText("Sign Up");
-        btnSignUp.setName(""); // NOI18N
         btnSignUp.setOpaque(true);
         btnSignUp.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
